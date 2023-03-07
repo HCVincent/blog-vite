@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  font-size: 62.5%;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  box-sizing: content-box;
+}
+
+.app .container {
+  width: 100%;
+  box-sizing: inherit;
+}
+
+.app .link {
+  text-decoration: none;
+  color: inherit;
+}

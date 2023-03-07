@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    font-size: 62.5%;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+
+    box-sizing: content-box;
+
+    .container {
+        width: 100%;
+        box-sizing: inherit;
+
+        // .post:hover {
+        //     transform: scale(1.1);
+        //     transition: transform 0.2s ease-in-out;
+        // }
+    }
+
+    .link {
+        text-decoration: none;
+        color: inherit;
+    }
+}
